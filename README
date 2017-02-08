@@ -1,0 +1,45 @@
+Patricia Figueroa
+CSCI 2525 Assembly Language
+Programming Assignment 2
+
+Part 1:   
+1) Write a single statement that computes the product ∏8 =2 , i is an integer.
+Specifications:
+a) Place the results in a register of the appropriate size, remember to consider efficient use of available resources.
+b) To compute the product, you must use one or more constant expressions that computes the value. 
+No loops or use of anything beyond Chapter 3 in the book should be used.
+c) The register must be zeroed out before the result is stored.
+Part 2:  
+1) Write a short block of computational statements that causes the BX register to overflow.
+2) Write a short block of computational statements that causes the Cx register to set the carry flag.
+Specifications:
+a) Use variables as opposed to immediate values.  
+b) Make sure no other computations affect the outcome of this register. 
+c) The register must be zeroed out before it is used.
+
+Part 3:
+Using directives for creating symbolics, write a single statement that computes the number of seconds in a day.
+Specifications: 
+a) Place the result in the EDX register.
+b) The statement that is placed in the program and expanded should be SECONDS_IN_DAY. 
+c) The EDX register should be zeroed out before it is used. 
+d) Make sure the statement uses the symbolics to the fullest extent; that is, SECONDS_IN_DAY should be the only
+expression on the instruction line.
+
+A program template is provided below.
+DO NOT COPY PASTE THE TEMPLATE!  You must type it.
+TITLE pa2.asm ;
+Header comment block as shown in lecture notes 
+INCLUDE Irvine32.inc
+.data   
+{ your variables should be defined here}
+
+.data? 
+{used as necessary}
+
+.code main PROC 
+{executable code here}
+
+call DumpRegs  exit main ENDP  ;
+end of main procedure  END main  ;
+end of source code
