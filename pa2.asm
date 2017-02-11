@@ -9,7 +9,7 @@ INCLUDE Irvine32.inc
      ;-----Part 1-----;
 
 .data			  ;data directive segment, this is the data area
-				  ;no varibles are to be defined here 
+			  ;no varibles are to be defined here 
 .code             ; code segment for part 1 
 main PROC         ; main procedure defined here 
 	mov ax, 0     ; zero out ax register before using 
