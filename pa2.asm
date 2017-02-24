@@ -1,6 +1,7 @@
 ; Programming Assignment 2
 ; CSCI 2525 Assembly Language
 ; Patricia Figueroa 
+; 9/10
 
 
 TITLE pa2.asm
